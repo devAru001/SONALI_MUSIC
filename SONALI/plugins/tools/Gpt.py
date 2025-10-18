@@ -2,7 +2,7 @@ from config import BANNED_USERS
 from pyrogram import filters
 from pyrogram.enums import ChatAction
 from SONALI import app
-
+from SONALI.PurviAPI import api
 
 @app.on_message(filters.command(["chatgpt", "ai", "ask"]) & ~BANNED_USERS)
 async def chatgpt_chat(bot, message):

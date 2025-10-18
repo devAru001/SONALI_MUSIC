@@ -3,7 +3,6 @@ from SONALI.core.dir import dirr
 from SONALI.core.git import git
 from SONALI.core.userbot import Userbot
 from SONALI.misc import dbb, heroku
-from SONALI.PurviAPI import api
 
 from SafoneAPI import SafoneAPI
 from .logging import LOGGER
